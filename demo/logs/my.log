@@ -1,0 +1,327 @@
+2021-08-19 12:13:11.121  WARN 2252 --- [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:14:58.012  WARN 2252 --- [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:14:59.446  WARN 2252 --- [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:15:00.130  WARN 2252 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:15:00.648  WARN 2252 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:15:00.992  WARN 2252 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:15:03.834  WARN 2252 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:17:16.685  WARN 2252 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:17:26.592  WARN 2252 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""]
+2021-08-19 12:17:55.244  WARN 2252 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:17:56.138  WARN 2252 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'size' for method parameter type int is not present]
+2021-08-19 12:23:28.894  WARN 20076 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2021-08-19 13:42:05.751  INFO 1108 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 1108 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 13:42:05.753  INFO 1108 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 13:42:06.506  INFO 1108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 13:42:06.515  INFO 1108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 13:42:06.516  INFO 1108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 13:42:06.570  INFO 1108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 13:42:06.571  INFO 1108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 756 ms
+2021-08-19 13:42:06.836  INFO 1108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 13:42:06.844  INFO 1108 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.491 seconds (JVM running for 1.806)
+2021-08-19 13:42:19.742  INFO 1108 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 13:42:19.742  INFO 1108 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 13:42:19.743  INFO 1108 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 13:50:15.889  INFO 20464 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 20464 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 13:50:15.891  INFO 20464 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 13:50:16.602  INFO 20464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 13:50:16.612  INFO 20464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 13:50:16.612  INFO 20464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 13:50:16.670  INFO 20464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 13:50:16.670  INFO 20464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 736 ms
+2021-08-19 13:50:16.946  INFO 20464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 13:50:16.953  INFO 20464 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.434 seconds (JVM running for 1.746)
+2021-08-19 13:50:39.656  INFO 20464 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 13:50:39.657  INFO 20464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 13:50:39.658  INFO 20464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 13:50:39.680  WARN 20464 --- [http-nio-8082-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'username' for method parameter type String is not present]
+2021-08-19 13:50:47.152  WARN 20464 --- [http-nio-8082-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'username' for method parameter type String is not present]
+2021-08-19 13:50:47.760  WARN 20464 --- [http-nio-8082-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'username' for method parameter type String is not present]
+2021-08-19 13:50:48.419  WARN 20464 --- [http-nio-8082-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'username' for method parameter type String is not present]
+2021-08-19 13:51:38.558  WARN 20464 --- [http-nio-8082-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-08-19 13:51:39.345  WARN 20464 --- [http-nio-8082-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-08-19 13:51:39.837  WARN 20464 --- [http-nio-8082-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-08-19 13:51:40.253  WARN 20464 --- [http-nio-8082-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-08-19 13:52:07.674  WARN 20464 --- [http-nio-8082-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'username' for method parameter type String is not present]
+2021-08-19 13:52:59.508  INFO 7588 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 7588 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 13:52:59.510  INFO 7588 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 13:53:00.238  INFO 7588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 13:53:00.247  INFO 7588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 13:53:00.247  INFO 7588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 13:53:00.302  INFO 7588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 13:53:00.302  INFO 7588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 745 ms
+2021-08-19 13:53:00.567  INFO 7588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 13:53:00.575  INFO 7588 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.449 seconds (JVM running for 1.759)
+2021-08-19 13:53:05.503  INFO 7588 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 13:53:05.503  INFO 7588 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 13:53:05.504  INFO 7588 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-19 14:01:36.177  INFO 19028 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 19028 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:01:36.179  INFO 19028 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:01:36.884  INFO 19028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:01:36.892  INFO 19028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:01:36.893  INFO 19028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:01:36.945  INFO 19028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:01:36.946  INFO 19028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 727 ms
+2021-08-19 14:01:37.211  INFO 19028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:01:37.219  INFO 19028 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.406 seconds (JVM running for 1.714)
+2021-08-19 14:01:43.244  INFO 19028 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:01:43.245  INFO 19028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:01:43.246  INFO 19028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:02:15.438  INFO 2456 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 2456 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:02:15.440  INFO 2456 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:02:16.129  INFO 2456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:02:16.138  INFO 2456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:02:16.139  INFO 2456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:02:16.194  INFO 2456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:02:16.194  INFO 2456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 714 ms
+2021-08-19 14:02:16.449  INFO 2456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:02:16.457  INFO 2456 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.382 seconds (JVM running for 1.688)
+2021-08-19 14:02:18.514  INFO 2456 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:02:18.515  INFO 2456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:02:18.516  INFO 2456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:02:27.649  INFO 14308 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 14308 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:02:27.651  INFO 14308 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:02:28.352  INFO 14308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:02:28.361  INFO 14308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:02:28.362  INFO 14308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:02:28.417  INFO 14308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:02:28.417  INFO 14308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 729 ms
+2021-08-19 14:02:28.684  INFO 14308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:02:28.692  INFO 14308 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.408 seconds (JVM running for 1.715)
+2021-08-19 14:02:32.933  INFO 14308 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:02:32.934  INFO 14308 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:02:32.935  INFO 14308 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:02:58.867  INFO 15864 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 15864 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:02:58.869  INFO 15864 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:02:59.573  INFO 15864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:02:59.582  INFO 15864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:02:59.582  INFO 15864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:02:59.636  INFO 15864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:02:59.637  INFO 15864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 725 ms
+2021-08-19 14:02:59.675  WARN 15864 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+2021-08-19 14:02:59.677  INFO 15864 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-08-19 14:02:59.686  INFO 15864 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-19 14:02:59.699 ERROR 15864 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.3.jar:2.5.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 17 common frames omitted
+
+2021-08-19 14:03:15.952  INFO 17228 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 17228 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:03:15.954  INFO 17228 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:03:16.705  INFO 17228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:03:16.714  INFO 17228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:03:16.715  INFO 17228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:03:16.769  INFO 17228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:03:16.770  INFO 17228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2021-08-19 14:03:16.809  WARN 17228 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+2021-08-19 14:03:16.811  INFO 17228 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-08-19 14:03:16.820  INFO 17228 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-19 14:03:16.833 ERROR 17228 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.3.jar:2.5.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'book.description' in value "${book.description}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 17 common frames omitted
+
+2021-08-19 14:03:46.426  INFO 2280 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 2280 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:03:46.428  INFO 2280 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:03:47.143  INFO 2280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:03:47.152  INFO 2280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:03:47.152  INFO 2280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:03:47.207  INFO 2280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:03:47.207  INFO 2280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 738 ms
+2021-08-19 14:03:47.478  INFO 2280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:03:47.486  INFO 2280 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.436 seconds (JVM running for 1.738)
+2021-08-19 14:03:51.526  INFO 2280 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:03:51.527  INFO 2280 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:03:51.528  INFO 2280 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:04:02.594  INFO 5464 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 5464 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:04:02.596  INFO 5464 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:04:03.304  INFO 5464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:04:03.312  INFO 5464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:04:03.313  INFO 5464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:04:03.368  INFO 5464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:04:03.369  INFO 5464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 733 ms
+2021-08-19 14:04:03.639  INFO 5464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:04:03.647  INFO 5464 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.425 seconds (JVM running for 1.747)
+2021-08-19 14:04:06.149  INFO 5464 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:04:06.149  INFO 5464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:04:06.150  INFO 5464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-19 14:06:21.576  INFO 21028 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 21028 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:06:21.584  INFO 21028 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:06:22.302  INFO 21028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:06:22.312  INFO 21028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:06:22.312  INFO 21028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:06:22.366  INFO 21028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:06:22.366  INFO 21028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2021-08-19 14:06:22.626  INFO 21028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:06:22.634  INFO 21028 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.435 seconds (JVM running for 1.748)
+2021-08-19 14:06:25.540  INFO 21028 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:06:25.541  INFO 21028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:06:25.541  INFO 21028 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-19 14:45:28.323  INFO 12944 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 12944 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:45:28.326  INFO 12944 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:45:29.031  INFO 12944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:45:29.040  INFO 12944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:45:29.040  INFO 12944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:45:29.093  INFO 12944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:45:29.093  INFO 12944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2021-08-19 14:45:29.367  INFO 12944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:45:29.374  INFO 12944 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.421 seconds (JVM running for 1.741)
+2021-08-19 14:45:33.069  INFO 12944 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:45:33.070  INFO 12944 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:45:33.071  INFO 12944 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:46:14.541  INFO 22236 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 22236 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:46:14.543  INFO 22236 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:46:15.290  INFO 22236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:46:15.299  INFO 22236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:46:15.300  INFO 22236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:46:15.354  INFO 22236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:46:15.354  INFO 22236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2021-08-19 14:46:15.394  WARN 22236 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'book'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.awt.print.Book' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-08-19 14:46:15.396  INFO 22236 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-08-19 14:46:15.405  INFO 22236 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-19 14:46:15.416 ERROR 22236 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field book in com.example.demo.web.HelloController required a bean of type 'java.awt.print.Book' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.awt.print.Book' in your configuration.
+
+2021-08-19 14:47:02.774  INFO 18592 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 18592 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:47:02.776  INFO 18592 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:47:03.518  INFO 18592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:47:03.528  INFO 18592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:47:03.528  INFO 18592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:47:03.581  INFO 18592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:47:03.581  INFO 18592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 761 ms
+2021-08-19 14:47:03.860  INFO 18592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:47:03.869  INFO 18592 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.492 seconds (JVM running for 1.809)
+2021-08-19 14:47:06.076  INFO 18592 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:47:06.077  INFO 18592 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:47:06.078  INFO 18592 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:48:42.415  INFO 23176 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 23176 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:48:42.417  INFO 23176 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:48:43.109  INFO 23176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:48:43.118  INFO 23176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:48:43.118  INFO 23176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:48:43.174  INFO 23176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:48:43.175  INFO 23176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2021-08-19 14:48:43.435  INFO 23176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:48:43.444  INFO 23176 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.398 seconds (JVM running for 1.703)
+2021-08-19 14:48:47.428  INFO 23176 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:48:47.430  INFO 23176 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:48:47.431  INFO 23176 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:51:03.357  INFO 8392 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 8392 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:51:03.359  INFO 8392 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:51:04.066  INFO 8392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:51:04.075  INFO 8392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:51:04.076  INFO 8392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:51:04.132  INFO 8392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:51:04.132  INFO 8392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 733 ms
+2021-08-19 14:51:04.406  INFO 8392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:51:04.414  INFO 8392 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.428 seconds (JVM running for 1.73)
+2021-08-19 14:51:07.398  INFO 8392 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:51:07.399  INFO 8392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:51:07.400  INFO 8392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-19 14:51:47.005  INFO 9140 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 9140 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:51:47.007  INFO 9140 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:51:47.719  INFO 9140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:51:47.729  INFO 9140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:51:47.730  INFO 9140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:51:47.790  INFO 9140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:51:47.790  INFO 9140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2021-08-19 14:51:48.049  INFO 9140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:51:48.056  INFO 9140 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.433 seconds (JVM running for 1.755)
+2021-08-19 14:51:51.665  INFO 9140 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:51:51.666  INFO 9140 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:51:51.666  INFO 9140 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-19 14:52:01.302  INFO 10924 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.11 on FA00256 with PID 10924 (C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo\target\classes started by Vincent Chiu in C:\Users\Vincent Chiu\Desktop\工作紀錄\demo\demo)
+2021-08-19 14:52:01.309  INFO 10924 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2021-08-19 14:52:02.008  INFO 10924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-19 14:52:02.016  INFO 10924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 14:52:02.017  INFO 10924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-19 14:52:02.073  INFO 10924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-08-19 14:52:02.073  INFO 10924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 727 ms
+2021-08-19 14:52:02.339  INFO 10924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2021-08-19 14:52:02.346  INFO 10924 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.419 seconds (JVM running for 1.737)
+2021-08-19 14:52:06.062  INFO 10924 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 14:52:06.063  INFO 10924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 14:52:06.064  INFO 10924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
