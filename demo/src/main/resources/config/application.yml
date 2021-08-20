@@ -1,12 +1,6 @@
-server:
-  port: 8082
-  servlet.context-path: /api
-logging:
-  level:
-    root: info
-    com.lrm: debug
-  file.name: logs/my.log
-
+spring:
+  profiles:
+    active: dev
 
 book:
   name: 互聯網世界觀

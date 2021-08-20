@@ -1,0 +1,22 @@
+server:
+  port: 8080
+#  servlet.context-path: /api
+logging:
+  level:
+    root: info
+    com.lrm: debug
+  file.name: logs/debug.log
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/testDB?useUnicod=true&charcterEncoding=utf-8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+

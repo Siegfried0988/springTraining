@@ -13,11 +13,11 @@ import java.util.Map;
 
 //@Controller
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/v2")
 public class HelloController {
 
-    @Autowired
-    private Book book;
+//    @Autowired
+//    private Book book;
 
     @GetMapping("/say")
     public String hello() {
@@ -58,7 +58,8 @@ public class HelloController {
 //        book.put("ISBN", isbn);
 //        book.put("author", author);
 //        book.put("description", description);
-        return book;
+//        return book;
+          return null;
     }
 
     @PostMapping("/books")

@@ -3,13 +3,23 @@ package com.example.demo.domain;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConfigurationProperties(prefix = "book")
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+//@Component
+//@ConfigurationProperties(prefix = "book")
+@Entity
 public class Book {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private  long id;
     private String name;
     private String author;
-    private String isbn;
+//    private String isbn;
+    private  int status;
     private String description;
 
     public Book() {
@@ -32,12 +42,28 @@ public class Book {
         this.author = author;
     }
 
-    public String getIsbn() {
-        return isbn;
+//    public String getIsbn() {
+//        return isbn;
+//    }
+//
+//    public void setIsbn(String isbn) {
+//        this.isbn = isbn;
+//    }
+
+    public long getId() {
+        return id;
     }
 
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public String getDescription() {
