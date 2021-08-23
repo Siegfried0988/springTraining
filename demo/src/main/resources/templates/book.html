@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>書單詳情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../static/css/bootstrap.min.css">
+
+</head>
+<body th:object="${book}">
+
+<div class="container" style="max-width: 700px;">
+    <h2 class="page-header" style="margin-top: 50px;">詳情</h2>
+    <div class="alert alert-dark" role="alert">
+        <p>
+            <strong>書名: </strong><span th:text="*{name}">羅馬帝國</span>
+        </p>
+        <p>
+            <strong>作者: </strong><span th:text="*{author}">tony</span>
+        </p>
+        <p>
+            <strong>描述: </strong><span th:text="*{description}">好書</span>
+        </p>
+        <p>
+            <strong>狀態: </strong><span th:text="*{status}">100</span>
+        </p>
+        <p th:switch="*{status}">
+            <strong>狀態: </strong>
+            <strong th:case="0">想讀</strong>
+            <strong th:case="1">在讀</strong>
+            <strong th:case="2">已讀</strong>
+
+        </p>
+
+    </div>
+    <div class="alert alert-success" th:unless="*{status == 0}">
+        <strong>不錯</strong>,妳已經開始行動了
+    </div>
+    <div class="alert alert-warning" th:if="*{status == 0}">
+        <strong>注意</strong>,妳還沒開始行動
+    </div>
+
+    <a href="javascript:history.go(-1)" class="btn btn-default">返回</a>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script th:src="@{/js/bootstrap.min.js}" src="../static/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>books !!!!!</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<h1>Books !!!</h1>-->
+<!--</body>-->
+<!--</html>-->
