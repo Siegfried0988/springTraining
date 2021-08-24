@@ -4,40 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../static/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../static/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>books</title>
 </head>
 <body>
 
-    <h1>Books list</h1>
+<h1>Books list</h1>
 
-    <div class="container">
-        <h2 class="page-header">書單列表</h2>
-        <p class="text-right"><a href="#" class="btn btn-primary">新增</a></p>
+<div class="container">
+    <h2 class="page-header">書單列表5</h2>
+    <div class="alert alert-success alert-dismissable fade in" th:unless="${#strings.isEmpty(message)}">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>恭喜, </strong>
+        <span th:text="${message}">信息提交成功</span>
+    </div>
+    <p class="text-right"><a href="./input.html" th:href="@{/books/input}" class="btn btn-primary">新增</a></p>
     <table class="table table-bordered table-striped table-hover">
         <thead>
-            <tr>
-                <th>#</th>
-                <th>書名</th>
-                <th>作者</th>
-                <th>說明</th>
-                <th>狀態</th>
-            </tr>
+        <tr>
+            <th>#</th>
+            <th>書名</th>
+            <th>作者</th>
+            <th>說明</th>
+            <th>狀態</th>
+            <th>更新</th>
+        </tr>
 
         </thead>
         <tbody>
 
 
-<!--        count: 計數 從1開始-->
-<!--        index: 索引 從0開始-->
-<!--        size: 列表總條數-->
-<!--        even/odd: 偶數/奇數-->
-<!--        first/last: 第一條/最後一條-->
+        <!--        count: 計數 從1開始-->
+        <!--        index: 索引 從0開始-->
+        <!--        size: 列表總條數-->
+        <!--        even/odd: 偶數/奇數-->
+        <!--        first/last: 第一條/最後一條-->
 
-        <tr th:each="book, iterStart: ${books} ">
+        <tr th:each="book, iterStart: ${page.content} ">
             <td th:text="${iterStart.count}">1</td>
-<!--            <td ><a href="#" th:text="${book.name}" th:href="@{/books/{id}(id=${book.id})}">"書名"</a></td>-->
-            <td ><a href="#" th:text="${book.name}" th:href="@{'/books/' + ${book.id}}">"書名"</a></td>
+            <!--            <td ><a href="#" th:text="${book.name}" th:href="@{/books/{id}(id=${book.id})}">"書名"</a></td>-->
+            <td><a href="#" th:text="${book.name}" th:href="@{'/books/' + ${book.id}}">"書名"</a></td>
             <td th:text="${book.author}">作者</td>
             <td th:text="${book.description}">說明</td>
             <td th:switch="${book.status}">
@@ -46,14 +53,26 @@
                 <span th:case="2">已讀</span>
                 <span th:case="*">狀態</span>
             </td>
+            <td>
+                <a href="#" th:href="@{/books/{id}/input(id=${book.id})}">更新</a>&nbsp;
+                <a href="#" th:href="@{/books/{id}/delete(id=${book.id})}">刪除</a>
+            </td>
 
         </tr>
         </tbody>
     </table>
-    </div>
+    <nav>
+        <ul class="pager">
+            <li class="previous"><a href="#" th:href="@{'/books?page=' + ${page.number-1}}" th:unless="${page.first}">上一頁</a></li>
+            <li class="next"><a href="#" th:href="@{/books(page=${page.number} +1 )}" th:unless="${page.last}">下一頁</a></li>
+        </ul>
+    </nav>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script th:src="@{/js/bootstrap.min.js}" src="../static/js/bootstrap.min.js"></script>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--<script th:src="@{/js/bootstrap.min.js}" src="../static/js/bootstrap.min.js"></script>-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 
